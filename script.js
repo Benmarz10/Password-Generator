@@ -58,13 +58,18 @@ function generatePassword() {
     options.push(uppercaseList)
   }
 
-  var generatePassword = ""
+  if (options === 0) {
+    options.push(symbolList)
+  }
+  
+  var generatedPassword = ""
 
   for (var i = 0; i < passLength; i++) {
     var randomList = getRandomChar(options)
     var randomItem = getRandomChar(randomList)
-    generatePassword += randomItem
+    generatedPassword += randomItem
   }
+  return generatedPassword
 }
 
 
