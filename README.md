@@ -12,11 +12,6 @@ I also used the recorded zoom lessons from the last week to help me progress thr
 ## License
 Please refer to my License file.
 
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
 ## Tests
 
 The way I tested this project was to start by clicking the "Generate Password" button, and then answerings all the prompts to select your criteria for your password. You'll notice if you answer the password length question with an invalid response you'll be prompted with how to correct it. Finally after you select all criteria for your password you will receive your new password within the box.
